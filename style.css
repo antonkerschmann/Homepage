@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.will {
+    padding: 40px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.unsere-trainer {
+    padding: 40px 20px;
+}
+
+.trainer-g {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.trainer-karte {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.kontakt{
+    padding: 40px 20px;
+    font-size: 16pt;
+}
+
+header {
+    background: linear-gradient(to right, #222, #444);
+    color: red;
+    padding: 45px;
+    text-align: center; 
+}
+
+header h1 {
+    font-size: 70px;          
+    font-weight: 700;         
+    font-family: "Impact", "Arial Black", sans-serif;
+    margin: 0;
+     text-shadow: 
+        3px 3px 6px black,
+        0 0 10px red;
+}
